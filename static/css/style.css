@@ -10,7 +10,7 @@
 #c-cell {display: block;}
 
 }*/
-
+thead tr:first-child td { border: 0px !important; }
 body {
   width: 100%;
   height: 100%;
