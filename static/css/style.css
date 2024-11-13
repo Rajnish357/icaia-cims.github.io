@@ -1194,15 +1194,21 @@ h3.abouth3 {
     padding: 10px 15px;
 }
 #about #guidelines li {
-    width: 100%;
+    width: calc(100% - 1px);
     float: left;
     background-color: #151515b3;
     margin: 1px;
     padding: 5px;
     list-style: none;
     color: #bf5454;
+    border-color: #ffffff2b;
+    border-right: 2px solid;
+    border-left: 2px solid;
 }
-
+#about #guidelines li:last-child {
+    border-bottom: 2px solid;
+    border-radius: 0px 0px 20px 20px;
+}
 dl, ol, ul {
     font-size: 15px;
 }
