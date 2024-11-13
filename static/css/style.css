@@ -1190,8 +1190,8 @@ h6 {
 h3.abouth3 {
     background: rgba(255, 255, 255, 0.35);
     border: 2px solid #bf5454;
-    border-radius: 60px 60px 0px 0px;
-    padding: 8px;
+    border-radius: 40px 40px 0px 0px;
+    padding: 10px 15px;
 }
 #about #guidelines li {
     width: 100%;
